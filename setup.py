@@ -2,15 +2,15 @@
 from distutils.core import setup
 
 setup(
-    name='PyMemoize',
-    version='1.0.3',
-    description='Simple memoizing module.',
+    name='p1-memo',
+    version='1.0.4',
+    description='Forked from PyMemoize',
     url='http://github.com/mikeboers/PyMemoize',
     
     packages=['memoize'],
     
-    author='Mike Boers',
-    author_email='memoize@mikeboers.com',
+    author='Dekoruma',
+    author_email='engineering@dekoruma.com',
     license='BSD-3',
     
     classifiers=[
