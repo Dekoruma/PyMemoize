@@ -5,6 +5,7 @@ setup(
     name='p1-memo',
     version='1.0.4',
     description='Forked from PyMemoize',
+    long_description=''
     url='http://github.com/mikeboers/PyMemoize',
     
     packages=['memoize'],
