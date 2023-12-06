@@ -1,11 +1,15 @@
 
 from distutils.core import setup
 
+with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
+    README = readme.read()
+
 setup(
     name='p1-memo',
     version='1.0.4',
     description='Forked from PyMemoize',
-    long_description=''
+    long_description='README.md',
+    long_description_content_type='text/markdown',
     url='http://github.com/mikeboers/PyMemoize',
     
     packages=['memoize'],
